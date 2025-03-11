@@ -141,3 +141,30 @@ h3 {
 .li-9 {
     color:#007ae6
 }
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 0);
+    }
+    10% {
+        color: rgb(28,28,28);
+    }
+    50% {
+        color:rgb(88, 52, 216)
+    }
+    90% {
+      color: rgb(0, 255, 242);
+    }
+  
+    100% {
+      color: rgb(30, 255, 0);
+    }
+}
+
+h1:hover {
+    animation: color-change 9s infinite;
+
+}
+a {
+    animation: color-change 8s infinite;
+    animation-range: 100;
+}
